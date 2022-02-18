@@ -1,0 +1,3 @@
+couldn't read file "tcl/mobility/stat_clus.tcl": no such file or directory
+can't read "node_(0)": no such variable
+can't read "opt(nn_)": no such element in array

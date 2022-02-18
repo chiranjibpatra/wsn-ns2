@@ -1,0 +1,173 @@
+# nam4wpan #
+c -t * -i 32 -n tomato
+c -t * -i 33 -n green
+c -t * -i 34 -n blue
+c -t * -i 35 -n blue
+c -t * -i 36 -n green4
+c -t * -i 37 -n green4
+c -t * -i 38 -n cyan4
+c -t * -i 39 -n cyan4
+n -t * -s 0  -x 26.608377307314001 -y 49.446991827566002 -Z 0 -z 2  -v circle -c black
+n -t * -s 1  -x 49.337311778721002 -y 48.582820874924003 -Z 0 -z 2  -v circle -c black
+n -t * -s 2  -x 27.437938215930998 -y 30.091658830425001 -Z 0 -z 2  -v circle -c black
+n -t * -s 3  -x 10.568766842666999 -y 47.453389414657003 -Z 0 -z 2  -v circle -c black
+n -t * -s 4  -x 32.496269526711004 -y 2.2574501390449999 -Z 0 -z 2  -v circle -c black
+n -t * -s 5  -x 26.476535726599 -y 38.646396828919997 -Z 0 -z 2  -v circle -c black
+n -t * -s 6  -x 49.430596917301003 -y 31.320042376073001 -Z 0 -z 2  -v circle -c black
+n -t * -s 7  -x 20.045665842363999 -y 32.537008965783002 -Z 0 -z 2  -v circle -c black
+n -t * -s 8  -x 13.641089465783001 -y 28.871428688348999 -Z 0 -z 2  -v circle -c black
+n -t * -s 9  -x 2.1258568489409999 -y 9.0496445382770005 -Z 0 -z 2  -v circle -c black
+n -t * -s 10  -x 0.59687160517799998 -y 0.81617422862099998 -Z 0 -z 2  -v circle -c black
+n -t * -s 11  -x 8.8281975910679993 -y 34.402175912552998 -Z 0 -z 2  -v circle -c black
+n -t * -s 12  -x 18.759762507870001 -y 25.069997591097 -Z 0 -z 2  -v circle -c black
+n -t * -s 13  -x 13.277017351151001 -y 5.5221490093060002 -Z 0 -z 2  -v circle -c black
+n -t * -s 14  -x 28.935083056450001 -y 37.156742480258004 -Z 0 -z 2  -v circle -c black
+n -t * -s 15  -x 23.507724673396002 -y 3.5667728464790001 -Z 0 -z 2  -v circle -c black
+n -t * -s 16  -x 20.236128396148001 -y 45.484419961171 -Z 0 -z 2  -v circle -c black
+n -t * -s 17  -x 45.709636471608 -y 48.353113573381997 -Z 0 -z 2  -v circle -c black
+n -t * -s 18  -x 45.610349971557 -y 49.787732692399999 -Z 0 -z 2  -v circle -c black
+n -t * -s 19  -x 24.345058881159002 -y 19.614188426582 -Z 0 -z 2  -v circle -c black
+n -t * -s 20  -x 35.972132273531003 -y 10.620805728045999 -Z 0 -z 2  -v circle -c black
+n -t * -s 21  -x 49.626765649851002 -y 14.028905860150999 -Z 0 -z 2  -v circle -c black
+n -t * -s 22  -x 14.914806804685 -y 24.094071765795 -Z 0 -z 2  -v circle -c black
+n -t * -s 23  -x 28.443020411336001 -y 24.367299319337999 -Z 0 -z 2  -v circle -c black
+n -t * -s 24  -x 48.102836431793001 -y 22.394995544608001 -Z 0 -z 2  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 50 -y 50
+A -t * -n 1 -p 0 -o 0xffffffff -c 31 -a 1
+A -t * -h 1 -m 2147483647 -s 0
+v -t 0.000000000 -e set_rate_ext 0.20ms 1
+v -t 0 -e sim_annotation 0 1 (at 0.0) ftp traffic from node 19 to node 6
+n -t 0.000000000 -s 19 -S COLOR -c blue -o black
+n -t 0.000000000 -s 6 -S COLOR -c blue -o black
++ -t 0.000985000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 0.000985000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 0.000985000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
+n -t 0.030001001 -s 19 -S COLOR -c blue -o blue
+n -t 0.030001001 -s 6 -S COLOR -c blue -o blue
+v -t 0.200000001 -e set_rate_ext 1.5ms 1
+v -t 0.3 -e sim_annotation 0.3 2 (at 0.3) ftp traffic from node 10 to node 4
+v -t 0.300000001 -e set_rate_ext 0.20ms 1
+n -t 0.300000001 -s 10 -S COLOR -c green4 -o black
+n -t 0.300000001 -s 4 -S COLOR -c green4 -o black
++ -t 0.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 0.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 0.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
+n -t 0.330001001 -s 10 -S COLOR -c green4 -o green4
+n -t 0.330001001 -s 4 -S COLOR -c green4 -o green4
+v -t 0.500000001 -e set_rate_ext 1.5ms 1
+v -t 0.7 -e sim_annotation 0.7 3 (at 0.7) ftp traffic from node 3 to node 2
+v -t 0.700000001 -e set_rate_ext 0.20ms 1
+n -t 0.700000001 -s 3 -S COLOR -c cyan3 -o black
+n -t 0.700000001 -s 2 -S COLOR -c cyan3 -o black
++ -t 0.701945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 0.701945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 0.701945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
+n -t 0.730001001 -s 3 -S COLOR -c cyan3 -o cyan3
+n -t 0.730001001 -s 2 -S COLOR -c cyan3 -o cyan3
+v -t 0.900000001 -e set_rate_ext 1ms 1
++ -t 2.001945000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 2.001945000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 2.001945000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 2.500345000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 2.500345000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 2.500345000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 2.502585000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 2.502585000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 2.502585000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 6.002265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 6.002265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 6.002265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 6.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 6.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 6.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 6.501625000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 6.501625000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 6.501625000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 11.500665000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 11.500665000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 11.500665000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 12.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 12.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 12.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 12.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 12.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 12.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
+d -t 19.000000000 -s 19 -d -1 -p tcp -e 40 -c 2 -a 34 -i 0 -k RTR
+d -t 19.000000000 -s 19 -d -1 -p tcp -e 40 -c 2 -a 34 -i 3 -k RTR
+d -t 19.000000000 -s 19 -d -1 -p tcp -e 40 -c 2 -a 34 -i 6 -k RTR
+d -t 19.500000000 -s 3 -d -1 -p tcp -e 40 -c 2 -a 38 -i 2 -k RTR
+d -t 19.500000000 -s 3 -d -1 -p tcp -e 40 -c 2 -a 38 -i 5 -k RTR
+d -t 19.500000000 -s 3 -d -1 -p tcp -e 40 -c 2 -a 38 -i 8 -k RTR
+d -t 19.500000000 -s 10 -d -1 -p tcp -e 40 -c 2 -a 36 -i 1 -k RTR
+d -t 19.500000000 -s 10 -d -1 -p tcp -e 40 -c 2 -a 36 -i 4 -k RTR
+d -t 19.500000000 -s 10 -d -1 -p tcp -e 40 -c 2 -a 36 -i 7 -k RTR
++ -t 29.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 29.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 29.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 29.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 29.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 29.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 29.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 29.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 29.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 31.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 31.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 31.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 31.500985000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 31.500985000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 31.500985000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 31.502265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 31.502265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 31.502265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 35.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 35.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 35.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 35.500985000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 35.500985000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 35.500985000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 35.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 35.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 35.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 40.502265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 40.502265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 40.502265000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 41.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 41.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 41.001945000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 41.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 41.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 41.002585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
+d -t 48.000000000 -s 19 -d -1 -p tcp -e 40 -c 2 -a 34 -i 9 -k RTR
+d -t 48.000000000 -s 19 -d -1 -p tcp -e 40 -c 2 -a 34 -i 12 -k RTR
+d -t 48.500000000 -s 3 -d -1 -p tcp -e 40 -c 2 -a 38 -i 11 -k RTR
+d -t 48.500000000 -s 3 -d -1 -p tcp -e 40 -c 2 -a 38 -i 14 -k RTR
+d -t 48.500000000 -s 10 -d -1 -p tcp -e 40 -c 2 -a 36 -i 10 -k RTR
+d -t 48.500000000 -s 10 -d -1 -p tcp -e 40 -c 2 -a 36 -i 13 -k RTR
++ -t 93.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 93.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 93.001305000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 93.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 93.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 93.302265000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 93.700345000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 93.700345000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 93.700345000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 95.000345000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 95.000345000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 95.000345000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 95.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 95.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 95.501305000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 95.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 95.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 95.501945000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 99.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 99.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 99.001625000 -s 19 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 99.500665000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 99.500665000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 99.500665000 -s 3 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00
++ -t 99.502585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC 
+- -t 99.502585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC
+h -t 99.502585000 -s 10 -d -1 -p AODV -e 55 -c 2 -a 32 -i 0 -k MAC -R 15.00 -D 0.00

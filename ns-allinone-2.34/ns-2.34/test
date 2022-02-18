@@ -1,0 +1,358 @@
+Creating sensor nodes...
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 (50 == BS)
+*** NOTE: no connection pattern specified.
+Loading scenario file...
+Node 0: (25.144583976429232,28.362700682302332)
+Node 1: (61.645402601754952,9.5108609690847157)
+Node 2: (9.8072523296844452,45.949458259134303)
+Node 3: (26.416475012161062,94.206458001493687)
+Node 4: (71.983806263647892,15.574145231197656)
+Node 5: (2.0402931152099244,64.051983395615579)
+Node 6: (18.708412264803616,82.05669833442974)
+Node 7: (81.053246967984947,7.5271446758541956)
+Node 8: (4.7232248842358704,32.682909738590432)
+Node 9: (2.4905085575257004,63.81724153823091)
+Node 10: (76.998156019019973,34.408444368470668)
+Node 11: (83.98170232958239,19.5439846345894)
+Node 12: (55.017492573250784,54.533912825646766)
+Node 13: (26.809092763256793,23.15049009544332)
+Node 14: (23.535992728330189,8.0647126809063892)
+Node 15: (84.694497280146237,47.784384129468535)
+Node 16: (56.640539717227469,32.883100226932719)
+Node 17: (19.407992306821047,81.203061752581533)
+Node 18: (51.426724135608751,23.662517743028012)
+Node 19: (99.796644830981577,6.4476612054033486)
+Node 20: (75.028241972917812,58.861216790443848)
+Node 21: (40.324261104839046,3.2171891551544838)
+Node 22: (48.722570738160314,51.918711816854177)
+Node 23: (84.721519604661282,12.031312478720823)
+Node 24: (54.414780556417433,45.610898428415361)
+Node 25: (49.267175909721836,17.377113419294876)
+Node 26: (27.550123179121933,90.434600222126861)
+Node 27: (66.776606285374896,37.173556460614108)
+Node 28: (44.533116949970427,1.9717097291591157)
+Node 29: (3.6732392868368136,6.3763841085025961)
+Node 30: (94.025924799044574,40.512182908371173)
+Node 31: (33.864245952043795,90.700321919610872)
+Node 32: (1.0152567648399886,6.4081726159938484)
+Node 33: (85.736736881424079,79.500668765744507)
+Node 34: (4.1402455904242794,44.72410089556319)
+Node 35: (43.495777316156669,84.973675191855833)
+Node 36: (44.586149111663062,76.726277068595522)
+Node 37: (38.327325293015377,59.234176696852856)
+Node 38: (54.568107032481628,11.604577215204284)
+Node 39: (40.128369135841901,69.137277300067851)
+Node 40: (14.677193255479072,35.329426934630341)
+Node 41: (8.1042500716188215,3.9039632789343424)
+Node 42: (64.663365746225864,37.328968819849642)
+Node 43: (58.488940521371056,38.322794222423248)
+Node 44: (25.411482958780361,56.76954409888458)
+Node 45: (42.982499228316591,60.464399429254421)
+Node 46: (62.305802461833601,41.158197559955624)
+Node 47: (17.086304918437406,63.794582739376736)
+Node 48: (58.450730265328069,43.251917065704205)
+Node 49: (64.114680077934025,78.39107540361168)
+Max Distance for this Simulation is 136.0
+Load complete...
+Starting Simulation...
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 1 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 2 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 3 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 4 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 5 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 6 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 7 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 8 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 9 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 10 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 11 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 12 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 13 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 14 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 15 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 16 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 17 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 18 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 19 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 20 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 21 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 22 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 23 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 24 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 25 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 26 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 27 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 28 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 29 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 30 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 31 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 32 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 33 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 34 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 35 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 36 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 37 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 38 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 39 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 40 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 41 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 42 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 43 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 44 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 45 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 46 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 47 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 48 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 49 
+executing rinfo
+recv_code :0
+msg_type::0
+BS received info: (  ) from Node 
+BS received: 50 
+executing rinfo
+hello
+num_nodes is set 51
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 60.8
+
+rannode:25ee25.144584	28.362701	25
+
+rannode:22ee61.645403	9.510861	22
+
+rannode:33ee9.807252	45.949458	33
+Min_cost = 67524.565987
+last_iter = 1000
+CH are:
+25.144584	28.362701	25	0.000000
+61.645403	9.510861	22	0.000000
+9.807252	45.949458	33	0.000000
+recv_code :1
+Sending: Type=0 data_size=846953339
+	Meta={{{25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 22 25 25 25 25 25 25 25 25 25 25 33 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25}}}
+	Source=50
+	Target=-1
+ baseStation send 4294967295 4294967295 0 msg:{{{25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 22 25 25 25 25 25 25 25 25 25 25 33 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25}}} 200 10 0
+ch_index:25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 22 25 25 25 25 25 25 25 25 25 25 33 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25
+
+At 10:
+		Total Energy = 0.25776856501459416
+		Total Data = 0
+		Total Alive = 50
+
+
+At 20:
+		Total Energy = 0.25776856501459416
+		Total Data = 0
+		Total Alive = 50
+
+Only received info from 0 nodes.
+There are currently 50 alive ==>  3 cluster-heads needed.
+
+At 20.014800000000001:
+		Total Energy = 0.25776856501459416
+		Total Data = 0
+		Total Alive = 50
+
+Simulation complete.
+
+BSAgent Layer received: Type=0 data_size=846953339
+	Meta = {{{25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 22 25 25 25 25 25 25 25 25 25 25 33 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25}}}
+	Source = 32
+	Target = ffffffff
+	Link_target = ffffffff
+[wpan/p802_15_4phy.cc::PD_DATA_request][0.017385](node 50) Invalid PSDU/MPDU length: type = tcp, src = 50, dst = 0, uid = 892477493, mac_uid = 50, size = 130

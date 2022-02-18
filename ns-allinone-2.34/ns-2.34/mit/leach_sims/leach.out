@@ -1,0 +1,11 @@
+*** NOTE: no connection pattern specified.
+Loading scenario file...
+Starting Simulation...
+ns: _o15 timeout: can't read "node_(0)": no such variable
+    while executing
+"$node_($i) log-movement"
+    (procedure "_o15" line 4)
+    (LogTimer timeout line 4)
+    invoked from within
+"_o15 timeout"
+num_nodes is set 51

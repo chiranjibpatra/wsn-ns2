@@ -1,0 +1,4 @@
+intallation instructions:
+
+1. paste this folder in home directory of ubuntu 16.04 lts
+2.in the file ns-allinone-2.34/ns-2.34/mit/uAMPS/sims/uamps.tcl please replace (/home/chiranjib/ns-allinone-2.34/ns-2.34/mit/rca/resources) chiranjib to ur name /or others.

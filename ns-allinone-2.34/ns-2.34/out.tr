@@ -1,0 +1,3 @@
+M 0.0 nn 51 x 1000 y 1000 rp leach
+M 0.0 sc mit/uAMPS/sims/nodescen cp ../mobility/scene/cbr-50-10-4-512 seed 0.0
+M 0.0 prop Propagation/TwoRayGround ant Antenna/OmniAntenna

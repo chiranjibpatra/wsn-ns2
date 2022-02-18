@@ -1,0 +1,94 @@
+n -t * -s 0  -x 532 -y 475 -Z 0 -z 30  -v circle -c black
+n -t * -s 1  -x 423 -y 535 -Z 0 -z 30  -v circle -c black
+n -t * -s 2  -x 151 -y 514 -Z 0 -z 30  -v circle -c black
+n -t * -s 3  -x 178 -y 457 -Z 0 -z 30  -v circle -c black
+n -t * -s 4  -x 27 -y 224 -Z 0 -z 30  -v circle -c black
+n -t * -s 5  -x 347 -y 352 -Z 0 -z 30  -v circle -c black
+n -t * -s 6  -x 756 -y 193 -Z 0 -z 30  -v circle -c black
+n -t * -s 7  -x 328 -y 176 -Z 0 -z 30  -v circle -c black
+n -t * -s 8  -x 247 -y 182 -Z 0 -z 30  -v circle -c black
+n -t * -s 9  -x 673 -y 507 -Z 0 -z 30  -v circle -c black
+n -t * -s 10  -x 503 -y 471 -Z 0 -z 30  -v circle -c black
+n -t * -s 11  -x 281 -y 488 -Z 0 -z 30  -v circle -c black
+n -t * -s 12  -x 734 -y 448 -Z 0 -z 30  -v circle -c black
+n -t * -s 13  -x 602 -y 92 -Z 0 -z 30  -v circle -c black
+n -t * -s 14  -x 403 -y 556 -Z 0 -z 30  -v circle -c black
+n -t * -s 15  -x 361 -y 339 -Z 0 -z 30  -v circle -c black
+n -t * -s 16  -x 740 -y 376 -Z 0 -z 30  -v circle -c black
+n -t * -s 17  -x 184 -y 214 -Z 0 -z 30  -v circle -c black
+n -t * -s 18  -x 131 -y 325 -Z 0 -z 30  -v circle -c black
+n -t * -s 19  -x 34 -y 355 -Z 0 -z 30  -v circle -c black
+n -t * -s 20  -x 166 -y 266 -Z 0 -z 30  -v circle -c black
+n -t * -s 21  -x 350 -y 301 -Z 0 -z 30  -v circle -c black
+n -t * -s 22  -x 752 -y 145 -Z 0 -z 30  -v circle -c black
+n -t * -s 23  -x 462 -y 44 -Z 0 -z 30  -v circle -c black
+n -t * -s 24  -x 417 -y 74 -Z 0 -z 30  -v circle -c black
+n -t * -s 25  -x 582 -y 132 -Z 0 -z 30  -v circle -c black
+n -t * -s 26  -x 758 -y 514 -Z 0 -z 30  -v circle -c black
+n -t * -s 27  -x 142 -y 556 -Z 0 -z 30  -v circle -c black
+n -t * -s 28  -x 91 -y 388 -Z 0 -z 30  -v circle -c black
+n -t * -s 29  -x 641 -y 585 -Z 0 -z 30  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 800 -y 600
+A -t * -n 1 -p 0 -o 0xffffffff -c 31 -a 1
+A -t * -h 1 -m 2147483647 -s 0
+n -t 0 -s 0 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 1 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 2 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 3 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 4 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 5 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 6 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 7 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 8 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 9 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 10 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 11 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 12 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 13 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 14 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 15 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 16 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 17 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 18 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 19 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 20 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 21 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 22 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 23 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 24 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 25 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 26 -S COLOR -c red -o green -i red -I green
+n -t 0 -s 27 -S COLOR -c red -o yellow -i red -I yellow
+n -t 0 -s 28 -S COLOR -c red -o blue -i red -I blue
+n -t 0 -s 29 -S COLOR -c red -o green -i red -I green
+n -t 0.5 -s 0 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 1 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 2 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 3 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 4 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 5 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 6 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 7 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 8 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 9 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 10 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 11 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 12 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 13 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 14 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 15 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 16 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 17 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 18 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 19 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 20 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 21 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 22 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 23 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 24 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 25 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 26 -S COLOR -c green -o red -i green -I red
+n -t 0.5 -s 27 -S COLOR -c yellow -o red -i yellow -I red
+n -t 0.5 -s 28 -S COLOR -c blue -o red -i blue -I red
+n -t 0.5 -s 29 -S COLOR -c green -o red -i green -I red
